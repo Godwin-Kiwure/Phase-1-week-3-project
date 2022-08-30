@@ -1,0 +1,19 @@
+#header {
+    color: black;
+    text-align: center;
+}
+.container{
+    background: red;
+    height: 100vh;
+    width: 100vw;
+}
+.form1{
+    width: 40%;
+
+}
+.patient-details{
+    display: flex;
+    flex-direction: column;
+}
+
+    
