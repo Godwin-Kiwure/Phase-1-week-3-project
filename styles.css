@@ -2,18 +2,62 @@
     color: black;
     text-align: center;
 }
-.container{
-    background: red;
-    height: 100vh;
+body{
+   width: 100%;
+   height: 100%;
+}
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
     width: 100vw;
 }
 .form1{
     width: 40%;
+    height: 50%;
 
 }
+
 .patient-details{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.Symptoms-form{
     display: flex;
     flex-direction: column;
 }
 
+.form2{
+    width: 40%;
+}
+
+.Pad{
+    padding: 12px;
+    height: 40px;
+}
+
+.Pad1{
+    padding: 12px;
+    height: 40px;
+}
+
+.contact{
+    margin-top: 100px;
+}
+
+.doctors{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    height: 40px;
     
+}
+
+.Availabledoctors{
+    color: black;
+    font-size: x-large;
+}
