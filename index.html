@@ -9,21 +9,58 @@
     </head>
 <body>
     <h1 id="header">Online Diagnosis Platform</h1>
-    <h2 id="Sub">Patient's Details</h2>
-    <h2 id="Sub2">Symptoms-form</h2>
-    <h3 id="RQ">Request available doctor</h3>
-    <h3>Contact us</h3>
     <div class="Container">
         <div class="form1">
+            <h2 id="Sub">Patient's Details</h2>
             <form action="" class="patient-details">
-                <input id="user_name" type="text" placeholder="Name">
-                <input type="text" placeholder="Address">
-                <input type="text" placeholder="Contact">
-                <input id="Button" type="submit">
+                <input id="user_name" class="Pad" type="text" placeholder="Name">
+                <input type="text" class="Pad" placeholder="Address">
+                <input type="text" class="Pad" placeholder="Contact">
+                <input id="Button" class="Pad " type="submit">
             </form>
        </div>
+       <div class="form2">
+        <h2 id="Sub2">Symptoms-form</h2>
+        <div class="Symptoms-form">
+            <form action="" class="Symptoms-form">
+                <input id="Symptom" class="Pad1" type="text" placeholder="Symptom 1">
+                <input type="text" class="Pad1" placeholder="Symptom 2">
+                <input type="text" class="Pad1" placeholder="Symptom 3">
+                <input id="Button" class="Pad1" type="submit">
+            </form>
+        </div>
+        <div class="doctors">
+            <div class="form 1">
+                <h2 id="Docs">Available doctors</h2>
+                <div class="Availabledoctors">
+    
+                    <ol>
+                        <li>Albert Kinyanjui</li>
+                        <li>Kigen Omolo</li>
+                        <li>Abaxad Kisangau</li>
+                        <li>Diana Awuor</li>
+                        <li>Fred Kelvin</li>
+                        <li>Meshack Masea</li>
+                        <li>Ivone Sande</li>
+                        <li>Edwin Owino</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+       </div>
+       
         
     </div>
+    
+    <div class="Container 2">
+    <div class="contact">
+    <h3 id="RQ">Request available doctor</h3>
+    <input id="Button" class="Pad" type="Call">
+    <button>Call</button>
+    <h3>Contact us</h3>
+    </div>
+
+</div>
     <script src="./index.js"></script>
 </body>
 </html>
