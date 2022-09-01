@@ -12,7 +12,7 @@ function save(){
 
 
     if(Name === '' || Address === '' || Contact === '' || Symptom1 === '' || Symptom2 === '' || Symptom3 === ''){
-      alert("You have not entered any details");
+      alert("Kindly enter your details");
     }
 
     else{
