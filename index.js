@@ -37,7 +37,7 @@ function upload(){
       }
 
     else{
-        Swal.fire(' We have received your details. Thank you for choosing us.');
+        Swal.fire(' Your symptoms have been recorded. Thank you for choosing us.');
 
     }
 
