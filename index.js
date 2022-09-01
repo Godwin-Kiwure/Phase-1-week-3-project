@@ -12,11 +12,11 @@ function save(){
 
 
     if(Name === '' || Address === '' || Contact === '' || Symptom1 === '' || Symptom2 === '' || Symptom3 === ''){
-      alert("You haven't entered details");
+      alert("You have not entered any details");
     }
 
     else{
-        Swal.fire(Name + ' We have received your details. Thank you for choosing us.');
+        Swal.fire(Name + ', we have received your details. Thank you for choosing us.');
 
     }
 
@@ -33,7 +33,7 @@ function upload(){
     var Symptom3 = document.getElementById("Symptom3").value;
 
     if(Symptom1 === '' || Symptom2 === '' || Symptom3 === ''){
-        alert("You haven't entered any details");
+        alert("You have not entered any details");
       }
 
     else{
