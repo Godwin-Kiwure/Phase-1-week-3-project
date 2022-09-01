@@ -33,7 +33,7 @@ function upload(){
     var Symptom3 = document.getElementById("Symptom3").value;
 
     if(Symptom1 === '' || Symptom2 === '' || Symptom3 === ''){
-        alert("You have not entered any details");
+        alert("Kindy enter your symptoms");
       }
 
     else{
