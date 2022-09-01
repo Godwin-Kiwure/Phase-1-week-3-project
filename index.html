@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Diagnosis Platform</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     </head>
 <body>
     <h1 id="header">Online Diagnosis Platform</h1>
@@ -13,20 +14,21 @@
         <div class="form1">
             <h2 id="Sub">Patient's Details</h2>
             <form action="" class="patient-details">
-                <input id="user_name" class="Pad" type="text" placeholder="Name">
-                <input type="text" class="Pad" placeholder="Address">
-                <input type="text" class="Pad" placeholder="Contact">
-                <input id="Button" class="Pad " type="submit">
+                <input id="Name" class="Pad" type="text" placeholder="Name">
+                <input id="Address" type="text" class="Pad" placeholder="Address">
+                <input id="Contact" type="text" class="Pad" placeholder="Contact">
+                <input id="Button" class="Pad " type="submit" onclick="save()" >
             </form>
+
        </div>
        <div class="form2">
         <h2 id="Sub2">Symptoms-form</h2>
         <div class="Symptoms-form">
             <form action="" class="Symptoms-form">
-                <input id="Symptom" class="Pad1" type="text" placeholder="Symptom 1">
-                <input type="text" class="Pad1" placeholder="Symptom 2">
-                <input type="text" class="Pad1" placeholder="Symptom 3">
-                <input id="Button" class="Pad1" type="submit">
+                <input id="Symptom1" class="Pad1" type="text" placeholder="Symptom 1">
+                <input id="Symptom2" type="text" class="Pad1" placeholder="Symptom 2">
+                <input id="Symptom3" type="text" class="Pad1" placeholder="Symptom 3">
+                <input id="Button" class="Pad1" type="submit" onclick="upload()">
             </form>
         </div>
         <div class="doctors">
@@ -56,7 +58,7 @@
     <div class="contact">
     <h3 id="RQ">Request available doctor</h3>
     <input id="Button" class="Pad" type="Call">
-    <button>Call</button>
+    <button id="callBTN" onclick= "alert('Calling this doctor')">Call</button>
     <h3>Contact us</h3>
     </div>
 
