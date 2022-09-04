@@ -1,14 +1,15 @@
 # Phase-1-week-3-project-Online diagnosis platform  
 
-Portfolio
+#Portfolio
 
-By Godwin Kiwure
+##Developed By:
+Godwin Kiwure
 
-Description
+##Description
 
 It is a landing page of an online diagnosis hospital.
 
-Technology Used
+##Technology Used
 
 HTML - used to build the structure of the page.
 
@@ -18,8 +19,8 @@ CSS - Used to style the page
 
 JavaScript- use to enhance the interectiveness of the webpage
 
-Licence
-MIT License
+###Licence
+##MIT License
 
 Copyright (c) 2022 Godwin-Kiwure
 
