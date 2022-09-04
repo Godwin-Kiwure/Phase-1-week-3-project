@@ -19,15 +19,14 @@ function save(){
         Swal.fire(Name + ', we have received your details. Thank you for choosing us.');
 
     }
-
-       //document.patient-details.reset();
+       
 
      
      event.preventDefault();
 }
   
      
-function upload(){
+ function upload(){
     var Symptom1 = document.getElementById("Symptom1").value;
     var Symptom2 = document.getElementById("Symptom2").value;
     var Symptom3 = document.getElementById("Symptom3").value;
@@ -36,14 +35,13 @@ function upload(){
         alert("Kindy enter your symptoms");
       }
 
-    else{
-        Swal.fire(' Your symptoms have been recorded. Thank you for choosing us.');
+   else {
+             Swal.fire(' Your symptoms have been recorded. Thank you for choosing us.');
 
-    }
+            }
 
     event.preventDefault();
 }
-
 
  
  
