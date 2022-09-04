@@ -19,10 +19,11 @@ function save(){
         Swal.fire(Name + ', we have received your details. Thank you for choosing us.');
 
     }
-       
 
      
      event.preventDefault();
+
+
 }
   
      
@@ -43,5 +44,13 @@ function save(){
     event.preventDefault();
 }
 
- 
+document.getElementById('search_doc').addEventListener('submit', searchDoc)
+function searchDoc(e){
+    e.preventDefault()
+    let input=e.target.doctors.value
+    console.log(input)
+    fetch(`http://localhost:3000/`)
+    .then(res=>res.json())
+    .then(data=>console.log(data))
+}
  
