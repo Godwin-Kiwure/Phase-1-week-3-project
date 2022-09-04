@@ -1,0 +1,20 @@
+{
+    "Doctors":[
+        {"id":1,
+        "Name":"Albert Kinyanjui",
+        "Speciality":"Dentist"
+    },
+
+    {"id":2,
+    "Name":"Kigen Omolo",   
+    "Speciality":"Dermatologist"
+    },
+
+    {"id":3,
+    "Name":"Diana Awuor",
+    "Speciality":"Optometrist"
+}
+    
+    ]
+
+}
