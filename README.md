@@ -1,14 +1,20 @@
 # Phase-1-week-3-project-Online diagnosis platform  
 
 Portfolio
+
 By Godwin Kiwure
+
 Description
+
 It is a landing page of an online diagnosis hospital.
 
 Technology Used
+
 HTML - used to build the structure of the page.
 
+
 CSS - Used to style the page
+
 
 JavaScript- use to enhance the interectiveness of the webpage
 
